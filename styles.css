@@ -1,0 +1,45 @@
+canvas{ /*remove auto browser padding*/
+    padding: 0;
+    margin: 0;
+}
+h1{
+    padding: 5;
+    margin: 5;
+}
+h2{
+    padding:5;
+    margin:5;
+}
+h4{
+    padding:5
+}
+p{
+    padding: 5;
+    margin: 5;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: seagreen;
+
+  }
+  ul { 
+    margin-left: 20px; /*space on left of menu*/
+  }
+  ul li {
+    list-style:none;
+    display: inline-block;
+    line-height: 40px; /*same as nav height*/
+
+  }
+  ul li a{
+    text-decoration: none; /*no underline*/
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffd700;
+    padding: 0 20px; /*space btwn the links*/
+
+  }
+  ul li a:hover {
+    color: #fff5bf;
+  }

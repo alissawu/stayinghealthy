@@ -1,0 +1,6 @@
+python -m venv stayinghealthy
+
+conda deactivate
+source stayinghealthy/bin/activate
+python -m http.server
+http://localhost:8000
